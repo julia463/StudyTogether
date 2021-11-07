@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+     <title>Study Together!</title> 
+     
+     <link rel = "stylesheet" href = "styles.css">
+     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
+     <script src = "landing.js"></script>
+    </head>
+    <body>
+        <header class = "logo">
+            Study Together!
+        </header>
+        <p>
+            Welcome to Study Together! When you are ready to begin studying, you can click the 'study' button, fill out a few fields, and start studying!
+        </p>
+        <button id = "start-study" onclick = "showModal()">
+            Start Studying!
+        </button>
+        <div id = "modal-container" class = "modal">
+            <div id = "actual-modal">
+            <form autocomplete = "off">
+                <p>
+                 Enter a nickname:
+                </p>
+                <input id = "name">
+                <p>
+                What subject are you studying?
+                </p>
+                <input id = "subject">
+                <br>
+                <button id = "submit-fields" onclick = "returnText()">
+                    <a id = "link1" href = "studying.html">Study!</a>
+                </button>
+            </form>
+            </div>
+        </div>
+        <script src = "landing.js"></script>
+    </body>
+
+</html>
+</html>
